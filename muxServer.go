@@ -11,8 +11,8 @@ import (
 
 func muxServer() {
 	Articles = []Article{
-		Article{Id: "1", Title: "title1", Desc: "desc1", Content: "content1"},
-		Article{Id: "2", Title: "title2", Desc: "desc2", Content: "content2"},
+		{Id: "1", Title: "title1", Desc: "desc1", Content: "content1"},
+		{Id: "2", Title: "title2", Desc: "desc2", Content: "content2"},
 	}
 	handleRequestsMux()
 }
